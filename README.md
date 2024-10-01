@@ -22,3 +22,4 @@ A simple weather dashboard built with React that allows users to search for city
 1. Clone the repository:
 
    git clone https://github.com/Enyewashebr/ALX-FE-Capstone-Project/tree/main
+ 
