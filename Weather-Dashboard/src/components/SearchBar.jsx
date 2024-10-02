@@ -1,4 +1,3 @@
-// src/components/SearchBar.jsx
 import { useState } from "react";
 import PropTypes from "prop-types";
 
@@ -14,13 +13,13 @@ const SearchBar = ({ onSearch }) => {
     <div className="flex justify-center items-center h-screen bg-gray-100">
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded-lg p-6 max-w-md w-full"
+        className="bg-white shadow-md rounded-lg p-6 max-w-md w-full sm:w-96"
       >
         <p className="text-2xl font-bold mb-4 text-center text-gray-800">
           Type your city to know its weather.
         </p>
         <input
-        required
+          required
           type="text"
           placeholder="Enter city"
           value={city}
@@ -39,7 +38,7 @@ const SearchBar = ({ onSearch }) => {
 };
 
 SearchBar.propTypes = {
-  onSearch: PropTypes.func.isRequired, // Validate onSearch prop
+  onSearch: PropTypes.func.isRequired,
 };
 
 export default SearchBar;

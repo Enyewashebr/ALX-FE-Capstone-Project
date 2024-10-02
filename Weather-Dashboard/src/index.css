@@ -35,15 +35,22 @@ input{
   height: 25px;
   border-radius: 30px;
   border: none;
-  /* text-align: center; */
+  
   padding-left: 10px;
 }
 .error-message {
-  color: #ff3700; /* Change the text color */
-  /* font-weight: bold; Make it bold */
-  /* background-color: #f8d7da; Light red background */
-  /* padding: 10px; Add some padding */
-  /* border: 1px solid #f5c6cb; Red border */
-  /* border-radius: 5px; Rounded corners */
-  /* margin-top: 10px; Space above the error message */
+  color: #ff3700;
+  
+}
+@media only screen and (min-width:380px) {
+  .input{
+    width: 40%;
+
+    display: block;
+    margin-bottom: 10px;
+  }
+  button{
+    margin-top: 10px;
+    width: 35%;
+  }
 }
